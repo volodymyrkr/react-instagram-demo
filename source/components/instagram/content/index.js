@@ -1,11 +1,14 @@
 import React from 'react';
 
+import Profile from '../profile';
+import Photos from '../photos';
+
 class Content extends React.Component {
     render() {
         return (
             <div className="content">
-                <div>Profile</div>
-                <div>Photos</div>
+                <Profile/>
+                <Photos />
             </div>
         );
     }
